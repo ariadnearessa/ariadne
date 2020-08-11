@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<title>Florzinha</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Artistas de todo o brasil">
+<meta name="keywords" content="arte, desenho, contrato">
+<meta name="author" content="Contart">
+<link rel="stylesheet" href="css/w3.css">
+<style>
+@font-face{
+    font-family: "Amatic SC";
+    src: url(fonts/AmaticSC-Bold.ttf) format("truetype"),
+    url(fonts/AmaticSC-Regular.ttf) format("truetype");
+}
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("w3images/tttt.jpg");
+  -min-height: 90%;
+}
+</style>
+
+<meta name="description" content="Site para designer">
+<meta name="keywords" content="designer, arte, contrato">
+<meta name="author" content="Eu">
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#artistas" class="w3-bar-item w3-button">ARTISTAS</a>
+    <a href="#about" class="w3-bar-item w3-button">SOBRE NÓS</a>
+    <a href="#googleMap" class="w3-bar-item w3-button">CONTATO</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="HOME">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Sempre a disposição</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">Style<br>Ariadne</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>Arte com variedade</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Artistas</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="ARTISTAS">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">NOSSOS ARTISTAS</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pizza');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Arte digital</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Pasta');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Animações</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Starter');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Designer</div>
+      </a>
+    </div>
+
+    <div id="Pizza" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Marguerete</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Cartoon</span></h1>
+      <p class="w3-text-grey">Artista com 20 anos, trabalhou em curtas para o Youtube</p>
+      <hr>
+   
+      <h1><b>Formogi</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Anime</span></h1>
+      <p class="w3-text-grey">Trabalhou na ajuda de cenarios em um mangá brasileiro</p>
+      <hr>
+      
+      <h1><b>ChickenBunny</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Animais e cartoons</span></h1>
+      <p class="w3-text-grey">Trabalhou com artistas e em um album de fotos</p>
+      <hr>
+
+      <h1><b>Pine Fills</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Ilustrações</span></h1>
+      <p class="w3-text-grey">Trabalhou em várias ilustrações para cardápios</p>
+      <hr>
+
+      <h1><b>Fairybby</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Realismo</span></h1>
+      <p class="w3-text-grey">Fez artes para livros de artes</p>
+      <hr>
+
+      <h1><b>Parma</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Cartoons</span></h1>
+      <p class="w3-text-grey">Artes para livros de crianças</p>
+    </div>
+
+    <div id="Animações" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Louis Berneti</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Animações cutas</span></h1>
+      <p class="w3-text-grey">Animaçoes no youtube e para pequenos comercias</p>
+      <hr>
+   
+      <h1><b>Raviolizin</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Animador para empresas</span></h1>
+      <p class="w3-text-grey">Animações curtas para logos</p>
+      <hr>
+      
+      <h1><b>Tomatoez</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Animador de cartoons</span></h1>
+      <p class="w3-text-grey">Fez animações simples para canais do Youtube</p>
+      <hr>
+
+      <h1><b>Seabeauty</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Animações curtas</span></h1>
+      <p class="w3-text-grey">Trabalhou no Youtube e e em sites menores</p>
+    </div>
+
+
+    <div id="Designer" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>Bob Joss</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Logos</span></h1>
+      <p class="w3-text-grey">Trabalha para fazer logos variadas e modificações nas originais</p>
+      <hr>
+   
+      <h1><b>Artcolens</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Marca d'águas</span></h1>
+      <p class="w3-text-grey">faz marca d'águas para videos ou artes autorais </p>
+      <hr>
+      
+      <h1><b>Ground Under</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Panfletos</span></h1>
+      <p class="w3-text-grey">Edição ou criação de panfletos</p>
+      <hr>
+      
+      <h1><b>Tomozzarella</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Cartões de visitas e propagandas</span></h1>
+      <p class="w3-text-grey">Edição rapida para grandes empresas</p>
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Sobre</h1>
+    <p>Nosso trabalho é ajudar as grandes empresas encontrarem artistas de todos os tipos e ajudar nos contratos entre eles. Fornecendos artistas novos ou até profissionais.</p>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;" alt="Mapa do restaurante. Av manoel Goulart, 255">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>Find us at some address at some place or call us at 05050515-122330</p>
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <label for="name">Name<input id="name"class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></label>
+      <label for="number">Number<input id="number" class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></label>
+      <label for="horario">Hour<input id="horario" class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></label>
+      <label for="message">Message<input id="message" class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></label>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

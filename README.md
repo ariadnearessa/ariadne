@@ -1,2 +1,2 @@
-# ariadne
-site
+# aulaphonegap
+Exemplo utilizado template W3School.
